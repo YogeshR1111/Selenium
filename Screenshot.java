@@ -30,7 +30,7 @@ public class Screenshot {
 		FileHandler.copy(source, destination);  
 		Thread.sleep(3000);  
 		
-		driver.get("https://www.cricbuzz2.com/");  
+		driver.get("https://www.cricbuzz.com/");  
 		
 		File source2 = scn.getScreenshotAs(OutputType.FILE);
 		File destination2 = new File("C:\\Users\\yoges\\Downloads\\Lectures\\B.png");  
@@ -42,3 +42,4 @@ public class Screenshot {
 	}
 
 }
+`
